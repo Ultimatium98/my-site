@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 * html {
@@ -48,7 +49,7 @@
   min-height: 100vh;
   max-width: 95%;
   background-color: white;
-  margin: 30px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: center;
   border-radius: 40px;
@@ -160,7 +161,10 @@ a:hover {
   align-self: center;
   margin: 0 auto;
 }
-.about-me .about-me-text .text h1, p{
+.about-me .about-me-text .text  p{
+  text-align: left;
+}
+.about-me .about-me-text .text h1{
   text-align: center;
 }
 
