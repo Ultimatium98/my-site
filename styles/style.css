@@ -34,6 +34,14 @@
 .nav-item {
   margin-right: 20px;
 }
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-item.contact {
+margin: auto 50px auto auto;
+}
+
 
 .nav-link {
   color: white !important;
@@ -168,6 +176,9 @@ a:hover {
   text-align: center;
 }
 
+.qualities {
+  text-decoration: underline;
+}
 
 
 @media screen and (max-width: 990px) {
@@ -515,4 +526,15 @@ a:hover {
   opacity: 0.7;
 
 }
+
 /* END PROJECTS */
+
+/* FOOTER */
+.footer-copyright {
+  background-color: white;
+  opacity: 0.9;
+}
+.footer-copyright .a{
+  text-decoration: none; 
+}
+/* END-FOOTER */
